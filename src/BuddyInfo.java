@@ -3,6 +3,12 @@ public class BuddyInfo {
     public BuddyInfo(String Name, String address, int phoneNumber) {
     }
 
+    public BuddyInfo(){
+        this.name = "defaut";
+        this.address = "default";
+        this.phoneNumber = 000;
+    }
+
     private String name;
     public void setName(){
         this.name = null;
